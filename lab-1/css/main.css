@@ -1,0 +1,54 @@
+/*
+    Created By:
+    Luke & Rocco
+*/
+* {
+    margin-left: 6%;
+    margin-right: 6%;
+
+}
+
+main {
+    column-count: 3;
+    text-align: justify;
+}
+
+h1 {
+    border-style: solid;
+    border-color: black;
+    margin-right: 952px;
+    font-weight: normal;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 0px;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+}
+
+header p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 0px;
+    word-spacing: 0.54rem;
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2, h4{
+    font-family: "Anton", sans-serif;
+}
+
+
