@@ -127,3 +127,45 @@ footer small {
 cite {
     font-style: italic;
 }
+
+/* 
+    https://www.w3schools.com/css/css_rwd_mediaqueries.asp 
+
+    used media queries to make layout look nicer
+*/
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    article {
+        grid-column: 1;
+    }
+    
+    aside {
+        grid-column: 2;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    article, aside, header, footer {
+        padding: 1.5rem;
+    }
+}
