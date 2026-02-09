@@ -1,0 +1,9 @@
+body {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #636e72;
+    background-color: #a275cf;
+    background-attachment: fixed;
+    padding: 1 .5rem;
+}
