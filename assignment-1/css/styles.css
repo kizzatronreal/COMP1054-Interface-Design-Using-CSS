@@ -68,3 +68,62 @@ header p {
     font-size: 1.25rem;
     margin-bottom: 0;
 }
+main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+article {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+section {
+    margin-bottom: 3rem;
+}
+section:last-child {
+    margin-bottom: 0;
+}
+aside {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 5px solid #e8a87c;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    align-self: start;
+}
+aside ul {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dfe6e9;
+}
+aside li:last-child {
+    border-bottom: none;
+}
+blockquote p {
+    margin-bottom: 1.5rem;
+    line-height: 2;
+}
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+footer {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer small {
+    color: #636e72;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+cite {
+    font-style: italic;
+}
